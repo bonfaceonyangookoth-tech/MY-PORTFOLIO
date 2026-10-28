@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bonface Onyango | ICT Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6fa;
+      color: #2f3640;
+      line-height: 1.6;
+    }
+    header {
+      background: #273c75;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #40739e;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #718093;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+      background: #fff;
+      margin-top: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #192a56;
+      border-bottom: 2px solid #718093;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 2rem;
+    }
+    footer {
+      text-align: center;
+      background: #273c75;
+      color: #fff;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bonface Onyango</h1>
+    <p>ICT Professional | CCTV & Network Specialist | Data Analyst (Python)</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an ICT professional with a Diploma in Information Communication Technology from Meru Institute of Business Studies.
+      I have practical experience in CCTV installation, internet configuration, and network troubleshooting.
+      I am currently learning Python for data analysis to expand my technical skills.
+    </p>
+    <p>
+      Previously, I worked at Ramoda Ceramics Company as a Coal Gas Plant Operator, where I strengthened my teamwork and problem-solving abilities.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>CCTV Installation & Monitoring</li>
+      <li>Internet & Wi-Fi Configuration</li>
+      <li>Network Troubleshooting</li>
+      <li>Python for Data Analysis</li>
+      <li>ICT Systems Support</li>
+      <li>Computer Hardware Maintenance</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h3>1. CCTV Installation Project – Residential Building</h3>
+    <p>Installed and configured a 16-camera surveillance system with remote mobile monitoring, improving property security and reliability.</p>
+
+    <h3>2. Internet Setup – Small Office Network</h3>
+    <p>Designed and implemented a local area network (LAN) with stable Wi-Fi coverage, router setup, and user connectivity support.</p>
+
+    <h3>3. Python Data Analysis – Sales Report</h3>
+    <p>Used Python (Pandas and Matplotlib) to analyze sales data and visualize performance trends for business insights.</p>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Diploma in Information Communication Technology</li>
+      <li>Certificate in CCTV Installation and Monitoring</li>
+      <li>Python Data Analysis (in progress)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bonfaceonyango@example.com">bonfaceonyango@example.com</a></p>
+    <p>Phone: +254 11 199 807</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/bonfaceonyango</a></p>
+    <p>GitHub: <a href="#">github.com/bonfaceonyango</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bonface Onyango | ICT Portfolio</p>
+  </footer>
+</body>
+</html>
